@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../img/bg-1.jpg) center center/cover;
+}
+
+
+
+/* navbar Styling */
+nav::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    color: white;
+    opacity: 0.6;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    position:relative;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img{
+    position: relative;
+    width: 100px;
+    height: 100;
+    left: 57px;
+}
+
+nav ul{
+    display: flex;
+    margin: auto auto auto 800px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a:hover{
+    background-color: white;
+    color:rgb(19, 16, 16);
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+    padding: 5px 40px;
+    border-radius: 50px;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.btn{
+    position: relative;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    height: 40px;
+    font-family: cursive;
+}
+
+.btn:hover{
+    background-color: black;
+    color:white;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.content{
+    font-size: 1.3rem;
+    font-family:cursive;
+    color: white;
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 240px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+.section-2{
+    display:flex;
+    flex-direction: column;
+}
+
+.connect:hover{
+    transform: translateX(-20px);
+}
+
+.connect{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    background-color: rgb(66, 139, 139);
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    margin: 8px;
+    transform: translateX(-180px);
+    transition-property: transform;
+    transition-duration: 0.8s;
+}
+
+.section-2 img{
+    width: 20px;
+    height:20px;
+    margin-left: 10px;
+}
+
+.connect a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}

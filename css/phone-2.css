@@ -1,0 +1,34 @@
+body{
+    background: url(../img/bg-1.jpg) no-repeat center center/cover;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+nav ul {
+    display: flex;
+    margin: auto auto auto auto;
+    flex-direction: column;
+}
+
+
+nav li {
+    list-style: none;
+    margin: 16px;
+}
+
+nav .logo img {
+    position: relative;
+    width: 100px;
+    height: 100;
+    left: 0;
+}
+
+nav a{
+    font-size: 1.6rem;
+}
